@@ -1,0 +1,35 @@
+name: pnemonia
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.3 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_native_splash: ^2.2.19
+  image_picker: ^0.8.7
+  tflite: ^1.1.2
+  dcdg: ^4.1.0
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/images/splash.png
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
